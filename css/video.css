@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(65, 59, 61);
+  }
+  
+  h1 {
+    color: hwb(197 39% 19%);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(0, 119, 255);
+  }
+  
+  h2 {
+    font-family: cambria;
+    font-size: 15px;
+    color: rgba(238, 207, 197, 0.753);
+  }
+  
+  blockquote{
+    font-family: Georgia;
+    color: hwb(0 76% 24%);
+    font-style: italic;
+    text-align: justify;
+  }
+  
+  .higligh {
+    color :#440606;
+  }
+  
+  .tombol {
+    padding: 12px 24px;
+    font-size: 20px;
+    color: aquamarine;
+    background-color: blanchedalmond;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: backgroand-color 0.3s;
+  
+  }
+  .tombol:hover{
+    background-color: burlywood;
+    transition: scale(1.1);
+  }
